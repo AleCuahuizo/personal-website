@@ -1,0 +1,219 @@
+.a{
+  color: #5a8573;
+  font-family: 'Lilita One', cursive;
+  font-size: 2.2rem;
+}
+
+.perfil{
+    background-color: #6D9886;
+    margin: 0 auto;
+}
+
+.img-fluid{
+  border-radius: 10%;
+}
+
+.name{
+    width: 900px;
+    font-size: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Lilita One', cursive;
+}
+
+.texto{
+    width: 900px;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+.regla{
+    background: #04293A;
+    border: 0;
+    height: 0.75em;
+    padding: 0;
+    border-radius: 0.25em;
+}
+
+.regla2{
+    border: 0;
+    height: 0.75em;
+    padding: 0;
+    border-radius: 0.25em;
+}
+
+.introduction{
+  width: 900px;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.aboutMe{
+  width: 900px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.redes{
+  width: 900px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.container{
+  background-color: #6D9886;
+}
+
+.footer{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+
+@media (max-width: 480px){
+  .name{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .texto{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .img-fluid{
+    padding: 10px;
+  }
+  
+  .introduction{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+  .aboutMe{
+      height: auto;
+      width: auto;
+      text-align: center;
+      
+  }
+
+  .redes{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px){
+  .name{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .texto{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .img-fluid{
+    padding: 10px;
+  }
+
+  .introduction{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+  .aboutMe{
+      height: auto;
+      width: auto;
+      text-align: center;
+      list-style-position: inside;
+  }
+
+  .redes{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px){
+  .name{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .texto{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .introduction{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+  .aboutMe{
+      height: auto;
+      width: auto;
+      text-align: center;
+      list-style-position: inside;
+  }
+
+  .redes{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1601px){
+  .name{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .texto{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .introduction{
+    height: auto;
+    width: auto;
+    padding: 40px;
+    text-align: center;
+  }
+  .aboutMe{
+      height: auto;
+      width: auto;
+      text-align: center;
+      list-style-position: inside;
+  }
+
+  .redes{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+}
